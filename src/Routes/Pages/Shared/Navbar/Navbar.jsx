@@ -10,8 +10,8 @@ export default function Navbar() {
             <details>
                 <summary>EVENT</summary>
                 <ul className="p-2">
-                    <li><a>UPCOMMING EVENT</a></li>
-                    <li><a>PAST EVENT</a></li>
+                    <li><Link to='/upcommingEvent'>UPCOMMING EVENT</Link></li>
+                    <li><Link to='/lastEvent'>PAST EVENT</Link></li>
                 </ul>
             </details>
         </li>

@@ -20,12 +20,12 @@ export default function Banner() {
             <div>
                 <img src={img3} />
             </div>
-            {/* <div>
-                <img src={img4} />
+            <div>
+                <img src={img3} />
             </div>
             <div>
-                <img src={img5} />
-            </div> */}
+                <img src={img3} />
+            </div>
             <div>
                 <img src={img3} />
             </div>

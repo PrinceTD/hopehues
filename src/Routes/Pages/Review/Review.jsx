@@ -14,7 +14,7 @@ function Review() {
     return (
         <div className='drop-shadow-xl p-4 rounded-lg'>
             <div className='text-center m-8 p-8'>
-                <h1 className='text-xs font-bold'>
+                <h1 className='text-xs font-bold text-green-500'>
                     TESTIMONIAL
                 </h1>
                 <h1 className='text-4xl font-bold'>

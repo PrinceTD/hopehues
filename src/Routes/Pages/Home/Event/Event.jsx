@@ -49,134 +49,27 @@ export default function Event() {
                             <h2 className='text-2xl'>
                                 Halping a Women
                             </h2>
-                            <p className='text-sm text-justify'>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex repellendus ab inventore possimus?
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quibusdam vero laborum. Libero tenetur laborum perspiciatis odio nihil voluptatibus voluptas, sunt ipsum totam, commodi rerum eaque, ratione maxime quod sequi!
                             </p>
-                            <br></br>
-                            <div className='flex flex-row gap-4 items-center'>
-                                <p>
-                                    <VscCalendar></VscCalendar>
-                                </p>
-                                <p>
-                                    Dec 16, 2924
-                                </p>
+                            <div>
+                                <div className='flex flex-row gap-4 items-center'>
+                                    <p>
+                                        <VscCalendar></VscCalendar>
+                                    </p>
+                                    <p>
+                                        Dec 16, 2924
+                                    </p>
+                                </div>
+                                <div className='flex flex-row gap-4 items-center'>
+                                    <p>
+                                        <VscCalendar></VscCalendar>
+                                    </p>
+                                    <p>
+                                        Dec 16, 2924
+                                    </p>
+                                </div>
                             </div>
-
-                        </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className='shadow-xl gap-2 rounded-md'>
-                    <div>
-                        <img className='rounded-md' src={img1} />
-                        <div className='p-3'>
-                            <h2 className='text-2xl'>
-                                Halping a Women
-                            </h2>
-                            <p className='text-sm text-justify'>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex repellendus ab inventore possimus?
-                            </p>
-                            <br></br>
-                            <div className='flex flex-row gap-4 items-center'>
-                                <p>
-                                    <VscCalendar></VscCalendar>
-                                </p>
-                                <p>
-                                    Dec 16, 2924
-                                </p>
-                            </div>
-
-                        </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className='shadow-xl gap-2 rounded-md'>
-                    <div>
-                        <img className='rounded-md' src={img1} />
-                        <div className='p-3'>
-                            <h2 className='text-2xl'>
-                                Halping a Women
-                            </h2>
-                            <p className='text-sm text-justify'>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex repellendus ab inventore possimus?
-                            </p>
-                            <br></br>
-                            <div className='flex flex-row gap-4 items-center'>
-                                <p>
-                                    <VscCalendar></VscCalendar>
-                                </p>
-                                <p>
-                                    16 Decembar, 2024
-                                </p>
-                            </div>
-
-                        </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className='shadow-xl gap-2 rounded-md'>
-                    <div>
-                        <img className='rounded-md' src={img1} />
-                        <div className='p-3'>
-                            <h2 className='text-2xl'>
-                                Halping a Women
-                            </h2>
-                            <p className='text-sm text-justify'>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex repellendus ab inventore possimus?
-                            </p>
-                            <br></br>
-                            <div className='flex flex-row gap-4 items-center'>
-                                <p>
-                                    <VscCalendar></VscCalendar>
-                                </p>
-                                <p>
-                                    Dec 16, 2024
-                                </p>
-                            </div>
-
-                        </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className='shadow-xl gap-2 rounded-md'>
-                    <div>
-                        <img className='rounded-md' src={img1} />
-                        <div className='p-3'>
-                            <h2 className='text-2xl'>
-                                Halping a Women
-                            </h2>
-                            <p className='text-sm text-justify'>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex repellendus ab inventore possimus?
-                            </p>
-                            <br></br>
-                            <div className='flex flex-row gap-4 items-center'>
-                                <p>
-                                    <VscCalendar></VscCalendar>
-                                </p>
-                                <p>
-                                    Dec 16, 2924
-                                </p>
-                            </div>
-
-                        </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className='shadow-xl gap-2 rounded-md'>
-                    <div>
-                        <img className='rounded-md' src={img1} />
-                        <div className='p-3'>
-                            <h2 className='text-2xl'>
-                                Halping a Women
-                            </h2>
-                            <p className='text-sm text-justify'>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex repellendus ab inventore possimus?
-                            </p>
-                            <br></br>
-                            <div className='flex flex-row gap-4 items-center'>
-                                <p>
-                                    <VscCalendar></VscCalendar>
-                                </p>
-                                <p>
-                                    Dec 16, 2924
-                                </p>
-                            </div>
-
                         </div>
                     </div>
                 </SwiperSlide>

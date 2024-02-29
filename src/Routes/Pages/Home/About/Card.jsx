@@ -8,7 +8,7 @@ import './card.css'
 
 export default function Card() {
     return (
-        <div className='p-8 back-ground bg-fixed text-white rounded-lg'>
+        <div className='px-8 py-8 back-ground bg-fixed text-white rounded-lg'>
             <div className='py-10'>
                 <h3 className='text-xs font-bold'>
                     GREAT REVIEWS FOR OUR SERVICES

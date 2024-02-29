@@ -7,6 +7,8 @@ import { Helmet } from 'react-helmet-async'
 import Card from '../About/Card'
 import HomeIntro from './Home Intro/HomeIntro'
 import Review from '../../Review/Review'
+import VoluteerID from '../About/Voluteer/VoluteerID'
+import HomeEvent from '../Event/HomeEvent/HomeEvent'
 
 export default function Home() {
     return (
@@ -17,9 +19,10 @@ export default function Home() {
             <Banner></Banner>
             <HomeIntro></HomeIntro>
             <Card></Card>
-            <Event></Event>
+            <HomeEvent></HomeEvent>
             <Featured></Featured>
             <Review></Review>
+            <VoluteerID></VoluteerID>
             {/* <Maps></Maps> */}
 
         </>
