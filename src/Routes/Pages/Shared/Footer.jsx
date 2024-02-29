@@ -7,7 +7,7 @@ import CopyRinght from './CopyRinght';
 
 export default function Footer() {
     return (
-        <div className='pt-8 bg-neutral'>
+        <div className='pt-8 bg-neutral text-white'>
             <footer className='grid grid-cols-1 mg:grid-cols-2 lg:grid-cols-2 gap-4 max-w-screen-xl mx-auto'>
                 <div>
                     <div className='p-4'>
@@ -21,7 +21,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className='p-4'>
-                    <h6 className="footer-title"> Have a Questions?</h6>
+                    <h6 className="text-xl font-bold"> Have a Questions?</h6>
                     <div className='flex items-center'>
                         <FaLocationArrow className='h-[20px] w-[20px]'></FaLocationArrow>
                         <p className='p-2'>

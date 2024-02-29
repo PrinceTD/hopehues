@@ -14,7 +14,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <div>
         <RouterProvider router={router} />
       </div>
-      {/* max-w-screen-xl */}
     </HelmetProvider>
   </React.StrictMode>,
 )

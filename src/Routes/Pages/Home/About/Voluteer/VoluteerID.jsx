@@ -9,6 +9,11 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import './voluteer.css';
 
+import img1 from '../../../../../assets/Profile/1.jpg'
+import img2 from '../../../../../assets/Profile/2.jpg'
+import img3 from '../../../../../assets/Profile/3.jpg'
+import img4 from '../../../../../assets/Profile/4.jpg'
+
 // import required modules
 import { EffectCoverflow, Pagination, Navigation, Autoplay } from 'swiper/modules';
 
@@ -45,19 +50,20 @@ export default function VoluteerID() {
                     className="mySwiper"
                 >
                     <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                        <img src={img1} />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                        <img src={img2} />
+
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                        <img src={img3} />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                        <img src={img4} />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                        <img src={img1} />
                     </SwiperSlide>
                     <SwiperSlide>
                         <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
