@@ -18,8 +18,8 @@ function UPCHome() {
             <div>
                 <div className='justify-center'>
                     <img className='rounded-md w-full md:flex justify-center items-center px-6 py-2' src={img1} />
-                    <div className='p-3'>
-                        <h2 className='text-2xl text-green-500'>
+                    <div className='p-2'>
+                        <h2 className='text-2xl text-green-500 font-bold px-4'>
                             Halping a Women
                         </h2>
                         <div className='px-8 py-4'>

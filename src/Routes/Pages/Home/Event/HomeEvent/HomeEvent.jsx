@@ -2,6 +2,11 @@ import React from 'react'
 import Titel from '../../../../../Componets/SectionTitel/Titel'
 import img1 from '../../../../../assets/event pic/1.jpg'
 import img2 from '../../../../../assets/Profile/1.jpg'
+import { GoTriangleRight } from "react-icons/go";
+import { VscCalendar } from 'react-icons/vsc'
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaLocationArrow } from "react-icons/fa6";
+
 
 function HomeEvent() {
     return (
@@ -22,9 +27,12 @@ function HomeEvent() {
                             <h2 className="card-title">Give Food to Homeless Children</h2>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
                         </div>
-                        <div className="flex justify-between hover:bg-neutral w-100% p-4 rounded-xl">
-                            <button className="btn text-white px-4 font-semibold rounded-full bg-green-500 border-0 btn-sm">SHARE</button>
-                            <button className="btn text-white px-4 font-semibold rounded-full bg-green-500 border-0 btn-sm">VIEW </button>
+
+                        <div className='flex p-4 hover:text-green-500 items-center'>
+                            <GoTriangleRight className='' />
+                            <h2 className='px-2'>
+                                Read More
+                            </h2>
                         </div>
                     </div>
                     <div className="card bg-base-100 shadow-xl">
@@ -35,9 +43,12 @@ function HomeEvent() {
                             <h2 className="card-title">Give Food to Homeless Children</h2>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
                         </div>
-                        <div className="flex justify-between hover:bg-neutral w-100% p-4 rounded-xl">
-                            <button className="btn text-white px-4 font-semibold rounded-full bg-green-500 border-0 btn-sm">SHARE</button>
-                            <button className="btn text-white px-4 font-semibold rounded-full bg-green-500 border-0 btn-sm">VIEW </button>
+
+                        <div className='flex p-4 hover:text-green-500 items-center'>
+                            <GoTriangleRight className='' />
+                            <h2 className='px-2'>
+                                Read More
+                            </h2>
                         </div>
                     </div>
                     <div className="card bg-base-100 shadow-xl">
@@ -48,9 +59,12 @@ function HomeEvent() {
                             <h2 className="card-title">Give Food to Homeless Children</h2>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
                         </div>
-                        <div className="flex justify-between hover:bg-neutral w-100% p-4 rounded-xl">
-                            <button className="btn text-white px-4 font-semibold rounded-full bg-green-500 border-0 btn-sm">SHARE</button>
-                            <button className="btn text-white px-4 font-semibold rounded-full bg-green-500 border-0 btn-sm">VIEW </button>
+
+                        <div className='flex p-4 hover:text-green-500 items-center'>
+                            <GoTriangleRight className='' />
+                            <h2 className='px-2'>
+                                Read More
+                            </h2>
                         </div>
                     </div>
                 </div>

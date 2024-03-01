@@ -1,7 +1,9 @@
 import React, { useRef, useState } from 'react';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { RiDoubleQuotesL } from "react-icons/ri";
 
+import icon from '../../../assets/q.png'
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
@@ -36,13 +38,16 @@ function Review() {
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <h1 className='text-center m-8 p-8'>
-                        <h1 className='text-4xl font-bold '>Maickel Band</h1>
-                        <p className='text-sm font-bold font-serif'>Marketing Manager</p>
+                    <div className='text-center m-8 p-8'>
+                        {/* <img src={icon} className='w-[5px] h-[20px]'></img> */}
                         <p className=''>
                             Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
                         </p>
-                    </h1>
+
+                        <h1 className='text-4xl font-bold '>Maickel Band</h1>
+                        <p className='text-sm font-bold font-serif'>Marketing Manager</p>
+
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide> <h1 className='text-center m-8 p-8'>
                     <h1 className='text-4xl font-bold '>Maickel Band</h1>
