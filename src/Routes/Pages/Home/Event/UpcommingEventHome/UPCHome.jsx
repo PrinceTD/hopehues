@@ -17,7 +17,9 @@ function UPCHome() {
             </div>
             <div>
                 <div className='justify-center'>
-                    <img className='rounded-md w-full md:flex justify-center items-center px-6 py-2' src={img1} />
+                    <div className='rounded-xl'>
+                        <img className=' w-full md:flex justify-center items-center px-6 py-2' src={img1} />
+                    </div>
                     <div className='p-2'>
                         <h2 className='text-2xl text-green-500 font-bold px-4'>
                             Halping a Women
@@ -50,6 +52,7 @@ function UPCHome() {
                         </div>
 
                     </div>
+
                 </div>
             </div>
         </div >
