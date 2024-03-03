@@ -6,18 +6,9 @@ export default function Navbar() {
     const navOptions = <>
         <li><Link to='/'>HOME</Link></li>
         <li><Link to='/about'>ABOUT</Link></li>
-        <li>
-            <details>
-                <summary>EVENT</summary>
-                <ul className="p-2">
-                    <li><Link to='/upcommingEvent'>UPCOMMING EVENT</Link></li>
-                    <li><Link to='/lastEvent'>PAST EVENT</Link></li>
-                </ul>
-            </details>
-        </li>
-
-        <li><a>GALLERY</a></li>
-        <li><a>BLOG</a></li>
+        <li><Link to='/lastEvent'>EVENT</Link></li>
+        <li><Link to="/gallery">GALLERY</Link></li>
+        <li><Link to="/blog">BLOG</Link></li>
         <li><Link to="/contact">CONTACT</Link></li>
 
     </>

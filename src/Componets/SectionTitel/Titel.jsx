@@ -2,7 +2,7 @@ import React from 'react'
 
 function Titel({ heading, button, subHeading }) {
     return (
-        <div className='flex flex-row justify-between p-5 text-green-500 text-xl font-bold'>
+        <div className='flex flex-row justify-between p-2 text-green-500 text-xl font-bold'>
             <h2>
                 {heading}
             </h2>

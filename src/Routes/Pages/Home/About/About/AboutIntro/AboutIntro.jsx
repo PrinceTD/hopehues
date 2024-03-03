@@ -4,9 +4,9 @@ import pic from '../../../../../../assets/cover banner/aboutI.jpg'
 
 function AboutIntro() {
     return (
-        <div className='grid grid-cols-1 mg:grid-cols-2 lg:grid-cols-2 gap-4'>
+        <div className='grid grid-cols-1 mg:grid-cols-2 lg:grid-cols-2 gap-4 rounded-lg'>
             <div>
-                <img src={pic} alt="" className='rounded-lg' />
+                <img src={pic} alt="" className='rounded-lg p-6' />
             </div>
             <div className='py-8 m-8'>
                 <h2 className='text-sm font-bold text-green-500'>

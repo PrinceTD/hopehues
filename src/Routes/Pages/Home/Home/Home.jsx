@@ -21,7 +21,7 @@ export default function Home() {
             <Card></Card>
             <HomeEvent></HomeEvent>
             <Featured></Featured>
-            <Review></Review>
+            {/* <Review></Review> */}
             <VoluteerID></VoluteerID>
             {/* <Maps></Maps> */}
 

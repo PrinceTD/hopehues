@@ -10,10 +10,9 @@ function UPCHome() {
     return (
         <div className='p-2 drop-shadow-lg rounded-md'>
             <div>
-                <Titel
-                    heading={'Upcoming Event'}
-                    button={'View All'}>
-                </Titel>
+                <h2 className='p-2 text-green-500 text-xl font-bold'>
+                    Upcoming Event
+                </h2>
             </div>
             <div>
                 <div className='justify-center'>
