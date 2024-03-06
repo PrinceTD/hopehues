@@ -6,8 +6,8 @@ export default function Navbar() {
     const navOptions = <>
         <li><Link to='/'>HOME</Link></li>
         <li><Link to='/about'>ABOUT</Link></li>
-        <li><Link to='/lastEvent'>EVENT</Link></li>
-        <li><Link to="/gallery">GALLERY</Link></li>
+        <li><Link to='/event'>EVENT</Link></li>
+        {/* <li><Link to="/gallery">GALLERY</Link></li> */}
         <li><Link to="/blog">BLOG</Link></li>
         <li><Link to="/contact">CONTACT</Link></li>
 
@@ -30,7 +30,7 @@ export default function Navbar() {
                     </div>
                 </div>
                 <div className="navbar-center hidden lg:flex navbar-end">
-                    <ul className="menu menu-horizontal px-1">
+                    <ul className="menu menu-horizontal px-1 font-semibold">
                         {navOptions}
                     </ul>
                 </div>

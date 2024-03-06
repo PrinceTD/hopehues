@@ -6,9 +6,12 @@ import Main from "../Layout/Main";
 import Home from "./Pages/Home/Home/Home";
 import About from "./Pages/Home/About/About/About";
 import Contact from "./Pages/Contact/Contact";
-import AllEVent from "./Pages/Home/Event/AllEvent/AllEVent";
 import Blog from "./Pages/Blog/Blog";
-import Gallery from "./Pages/Gallery/Gallery";
+import Event from "./Pages/Home/Event/AllEvent/Event/Event";
+import LoginForm from "./Pages/Login/LoginForm";
+import SignUp from "./Pages/SignUp/SignUp";
+
+
 
 export const router = createBrowserRouter([
     {
@@ -27,21 +30,25 @@ export const router = createBrowserRouter([
                 path: "contact",
                 element: <Contact></Contact>
             },
+            // {
+            //     path: "upcommingEvent",
+            //     element: <AllEVent></AllEVent>
+            // },
             {
-                path: "upcommingEvent",
-                element: <AllEVent></AllEVent>
-            },
-            {
-                path: "lastEvent",
-                element: <AllEVent></AllEVent>
+                path: "event",
+                element: <Event />
             },
             {
                 path: "blog",
                 element: <Blog />
             },
             {
-                path: "gallery",
-                element: <Gallery />
+                path: "login",
+                element: <LoginForm />
+            },
+            {
+                path: "signup",
+                element: <SignUp />
             }
         ]
     },
