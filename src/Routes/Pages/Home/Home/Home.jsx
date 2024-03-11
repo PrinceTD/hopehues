@@ -7,6 +7,7 @@ import Card from '../About/Card'
 import HomeIntro from './Home Intro/HomeIntro'
 import VoluteerID from '../About/Voluteer/VoluteerID'
 import HomeEvent from '../Event/HomeEvent/HomeEvent'
+import Facebook from '../../SocialMedia/Facebook'
 
 export default function Home() {
     return (
@@ -21,6 +22,7 @@ export default function Home() {
             <Featured></Featured>
             {/* <Review></Review> */}
             <VoluteerID></VoluteerID>
+            {/* <Facebook /> */}
             {/* <Maps></Maps> */}
 
         </>

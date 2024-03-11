@@ -1,19 +1,21 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyBRPrheO9UvEOFGIKhwAszfU0ZEMSHH9FI",
-    authDomain: "assignment-12-21675.firebaseapp.com",
-    projectId: "assignment-12-21675",
-    storageBucket: "assignment-12-21675.appspot.com",
-    messagingSenderId: "587957371187",
-    appId: "1:587957371187:web:a0f220dc6e7a4dcc7c3e46"
+    apiKey: "AIzaSyDe9HrJGVYEvQnWG2snsGHUU9u2kQ81Kro",
+    authDomain: "hopehues.firebaseapp.com",
+    projectId: "hopehues",
+    storageBucket: "hopehues.appspot.com",
+    messagingSenderId: "132579709756",
+    appId: "1:132579709756:web:acd87bcea27e0dfee4c439",
+    measurementId: "G-K00EMC66H7"
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
-
-export default app;
+export const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);

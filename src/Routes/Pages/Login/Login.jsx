@@ -1,11 +1,23 @@
 import React from 'react'
-import { getAuth } from 'firebase/auth'
+import { GoogleAuthProvider, getAuth, signInWithPopup } from 'firebase/auth'
 
 function Login({ img, titel, subTitel }) {
-    const auth = getAuth(app)
+    const auth = getAuth();
+    const provider = new GoogleAuthProvider();
+
+    const handelGoogleSIgn = () => {
+        signInWithPopup(auth, provider)
+            .then(result => {
+                const user = result.user;
+                console.log(user)
+            })
+            .catch(error => {
+                console.log('error', error.message)
+            })
+    }
     return (
         <>
-            <button>
+            <button onClick={handelGoogleSIgn}>
                 Go to Google
             </button>
         </>
