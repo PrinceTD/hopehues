@@ -8,8 +8,7 @@ import About from "./Pages/Home/About/About/About";
 import Contact from "./Pages/Contact/Contact";
 import Blog from "./Pages/Blog/Blog";
 import Event from "./Pages/Home/Event/AllEvent/Event/Event";
-import LoginForm from "./Pages/Login/LoginForm";
-import SignUp from "./Pages/SignUp/SignUp";
+import Login from "./Pages/Login/Login";
 
 
 
@@ -30,10 +29,6 @@ export const router = createBrowserRouter([
                 path: "contact",
                 element: <Contact></Contact>
             },
-            // {
-            //     path: "upcommingEvent",
-            //     element: <AllEVent></AllEVent>
-            // },
             {
                 path: "event",
                 element: <Event />
@@ -43,12 +38,8 @@ export const router = createBrowserRouter([
                 element: <Blog />
             },
             {
-                path: "login",
-                element: <LoginForm />
-            },
-            {
-                path: "signup",
-                element: <SignUp />
+                path: "adminlogin",
+                element: <Login />
             }
         ]
     },
