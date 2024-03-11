@@ -35,7 +35,9 @@ export default function Navbar() {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn btn-sm px-4 bg-green-500 border-0 border-b-4 text-white">DONATE NOW</a>
+                    <Link to='/donate'>
+                        <button className="btn btn-success btn-sm font-semibold"> DONATE NOW </button>
+                    </Link>
                 </div>
             </div>
 

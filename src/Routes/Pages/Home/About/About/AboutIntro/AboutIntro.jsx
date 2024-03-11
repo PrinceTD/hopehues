@@ -20,7 +20,7 @@ function AboutIntro() {
 
                     A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
                 </p>
-                <Link to='/' className='px-2 py-2'>
+                <Link to='https://forms.gle/dTCE596az7idRzCQ9' className='px-2 py-2'>
                     <button className="btn text-white  px-6 font-bold rounded-full bg-green-500 border-0 ">Become A Voluteer</button>
                 </Link>
             </div>

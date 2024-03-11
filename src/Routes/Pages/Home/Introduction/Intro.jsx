@@ -14,7 +14,7 @@ function Intro() {
                 <p className='p-3 text-justify'>
                     On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.
                 </p>
-                <Link to='/' className='px-2 py-2'>
+                <Link to='https://forms.gle/dTCE596az7idRzCQ9' className='px-2 py-2'>
                     <button className="btn text-white  px-6 font-bold rounded-full bg-green-500 border-0 ">Become A Voluteer</button>
                 </Link>
             </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Titel({ heading, button, subHeading }) {
     return (
@@ -6,7 +7,7 @@ function Titel({ heading, button, subHeading }) {
             <h2>
                 {heading}
             </h2>
-            <button className="btn btn-sm text-white font-bold bg-green-500 border-0">{button}</button>
+            <Link to='/event' > <button className="btn btn-sm text-white font-bold bg-green-500 border-0">{button}</button></Link>
         </div>
     )
 }

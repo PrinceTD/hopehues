@@ -5,7 +5,7 @@ import UpCOMMINGHome from '../../Event/UpcommingEventHome/UpCOMMINGHome'
 
 function HomeIntro() {
     return (
-        <div className=''>
+        <div className='p-6'>
             <div className='grid grid-cols-1 mg:grid-cols-4 lg:grid-cols-6 items-center'>
                 <Intro></Intro>
                 <div className='col-span-2 px-2'>

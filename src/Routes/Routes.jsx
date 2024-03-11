@@ -9,6 +9,8 @@ import Contact from "./Pages/Contact/Contact";
 import Blog from "./Pages/Blog/Blog";
 import Event from "./Pages/Home/Event/AllEvent/Event/Event";
 import Login from "./Pages/Login/Login";
+import Donate from "./Pages/Donate/Donate";
+import JoinUs from "./Pages/JoinUS/JoinUs";
 
 
 
@@ -37,9 +39,17 @@ export const router = createBrowserRouter([
                 path: "blog",
                 element: <Blog />
             },
+            // {
+            //     path: "adminlogin",
+            //     element: <Login />
+            // },
             {
-                path: "adminlogin",
-                element: <Login />
+                path: "donate",
+                element: <Donate />
+            },
+            {
+                path: "joinus",
+                element: <JoinUs />
             }
         ]
     },
