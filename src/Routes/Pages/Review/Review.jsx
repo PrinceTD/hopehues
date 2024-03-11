@@ -43,10 +43,8 @@ function Review() {
                         <p className=''>
                             Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
                         </p>
-
                         <h1 className='text-4xl font-bold '>Maickel Band</h1>
                         <p className='text-sm font-bold font-serif'>Marketing Manager</p>
-
                     </div>
                 </SwiperSlide>
                 <SwiperSlide> <h1 className='text-center m-8 p-8'>

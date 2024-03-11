@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Titel from '../../../../../Componets/SectionTitel/Titel'
 import AllEVent from '../AllEvent/AllEVent';
+import HomeEventShow from './HomeEventShow';
 
 
 function HomeEvent() {
@@ -26,10 +27,10 @@ function HomeEvent() {
 
                 {
                     event.map(item =>
-                        <AllEVent
+                        <HomeEventShow
                             key={item._id}
                             item={item}>
-                        </AllEVent>)
+                        </HomeEventShow>)
                 }
 
             </div>

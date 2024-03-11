@@ -5,10 +5,10 @@ import UpCOMMINGHome from '../../Event/UpcommingEventHome/UpCOMMINGHome'
 
 function HomeIntro() {
     return (
-        <div className='py-2'>
-            <div className='grid grid-cols-1 mg:grid-cols-4 lg:grid-cols-6 gap-4'>
+        <div className=''>
+            <div className='grid grid-cols-1 mg:grid-cols-4 lg:grid-cols-6 items-center'>
                 <Intro></Intro>
-                <div className='col-span-2'>
+                <div className='col-span-2 px-2'>
                     <UpCOMMINGHome />
                 </div>
             </div>

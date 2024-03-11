@@ -18,7 +18,7 @@ function Event() {
         <>
             <div>
                 <Helmet>
-                    <title>Hope Hues | Contact</title>
+                    <title>Hope Hues | event </title>
                 </Helmet>
                 <Cover img={img1} titel='Our Event' subTitel='how are you men'></Cover>
             </div>
