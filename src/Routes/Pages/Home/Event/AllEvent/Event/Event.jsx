@@ -7,7 +7,7 @@ import img1 from '../../../../../../assets/cover banner/3.jpg'
 function Event() {
     const [event, setEvent] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/event')
+        fetch('https://hopehues-server.vercel.app/event')
             .then(res => res.json())
             .then(data => {
                 const home = data.filter(item => item);
