@@ -7,7 +7,7 @@ import HomeEventShow from './HomeEventShow';
 function HomeEvent() {
     const [event, setEvent] = useState([]);
     useEffect(() => {
-        fetch('https://hopehues-server.vercel.app/event')
+        fetch('http://localhost:5000/event')
             .then(res => res.json())
             .then(data => {
                 const home = data.filter(item => item.category === 'home');

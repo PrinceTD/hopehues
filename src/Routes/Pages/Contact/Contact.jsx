@@ -12,7 +12,7 @@ export default function Contact() {
                 </Helmet>
                 <Cover img={ContactImg} titel='contact us' subTitel='how are you men'></Cover>
             </div>
-            <div className='bg-base-300 text-white'>
+            <div className=''>
                 <div className='px-8 pt-8 m-8'>
                     <h2 className='text-3xl font-bold'>
                         Contact us

@@ -6,7 +6,7 @@ import Titel from '../../../../../Componets/SectionTitel/Titel';
 function UpCOMMINGHome() {
     const [event, setEvent] = useState([]);
     useEffect(() => {
-        fetch('https://hopehues-server.vercel.app/upcommingevent')
+        fetch('http://localhost:5000/upcommingevent')
             .then(res => res.json())
             .then(data => {
                 const home = data.filter(item => item.category === 'home');
