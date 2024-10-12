@@ -18,8 +18,6 @@ import AddEvent from "./Admin/Dashboard/AddEvent";
 import AddBlog from "./Admin/Dashboard/AddBlog";
 import AddVolunteer from "./Admin/Dashboard/AddVolunteer";
 
-
-
 export const router = createBrowserRouter([
     {
         path: "/",

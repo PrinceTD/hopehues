@@ -20,7 +20,7 @@ function Event() {
                 <Helmet>
                     <title>Hope Hues | event </title>
                 </Helmet>
-                <Cover img={img1} titel='Our Event' subTitel='how are you men'></Cover>
+                <Cover img={img1} titel='Our Event' subTitel=''></Cover>
             </div>
             <div>
                 <h2 className='p-8 text-3xl font-semibold'>

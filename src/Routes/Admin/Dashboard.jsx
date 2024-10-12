@@ -44,7 +44,7 @@ export default function Dashboard() {
                     <div className="divider"></div>
                     <li>
                         <Link to='/'>
-                            <FaHome></FaHome>
+                        <FaHome></FaHome>
                             Home
                         </Link>
                     </li>
@@ -78,7 +78,7 @@ export default function Dashboard() {
                 </small>
             </div>
             {/* dashboard contact */}
-            <div className='flex-1'>
+            <div className='flex-1 m-4 ps-2'>
                 <Outlet>
 
                 </Outlet>
