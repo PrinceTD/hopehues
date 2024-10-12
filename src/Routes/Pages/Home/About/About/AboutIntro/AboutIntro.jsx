@@ -17,7 +17,6 @@ function AboutIntro() {
                 </h1>
                 <p className='text-sm font-semibold py-4 text-justify'>
                     Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
-
                     A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
                 </p>
                 <Link to='https://forms.gle/dTCE596az7idRzCQ9' className='px-2 py-2'>

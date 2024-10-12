@@ -37,6 +37,9 @@ export default function Navbar() {
                     <Link to='/donate'>
                         <button className="btn text-white btn-success btn-sm font-semibold"> DONATE NOW </button>
                     </Link>
+                    {/* <Link to='/dashboard'>
+                        <button className="btn text-white btn-success btn-sm font-semibold"> Admin </button>
+                    </Link> */}
                 </div>
             </div>
 

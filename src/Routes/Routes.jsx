@@ -11,6 +11,12 @@ import Event from "./Pages/Home/Event/AllEvent/Event/Event";
 import Login from "./Pages/Login/Login";
 import Donate from "./Pages/Donate/Donate";
 import JoinUs from "./Pages/JoinUS/JoinUs";
+import Dashboard from "./Admin/Dashboard";
+import Cart from "./Admin/Dashboard/Cart";
+import UpcommintEvent from "./Admin/Dashboard/UpcommintEvent";
+import AddEvent from "./Admin/Dashboard/AddEvent";
+import AddBlog from "./Admin/Dashboard/AddBlog";
+import AddVolunteer from "./Admin/Dashboard/AddVolunteer";
 
 
 
@@ -50,7 +56,34 @@ export const router = createBrowserRouter([
             {
                 path: "joinus",
                 element: <JoinUs />
-            }
+            },
         ]
     },
+    {
+        path: 'dashboard',
+        element: <Dashboard></Dashboard>,
+        children: [
+            {
+                path: 'cart',
+                element: <Cart></Cart>
+            },
+            {
+                path: 'addUpCommingEvent',
+                element: <UpcommintEvent/>
+            },
+            {
+                path: 'addEvent',
+                element: <AddEvent/>
+            },
+            {
+                path: 'addBlog',
+                element: <AddBlog/>
+            },
+            {
+                path: 'addVolunteer',
+                element: <AddVolunteer/>
+            }
+        ]
+    }
+
 ]);
