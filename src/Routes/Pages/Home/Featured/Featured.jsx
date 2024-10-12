@@ -1,5 +1,6 @@
 import React from 'react'
 import './featured.css'
+import { Link } from 'react-router-dom'
 
 export default function Featured() {
     return (
@@ -12,8 +13,10 @@ export default function Featured() {
                     The Smallest Act of Kindness is Worth More Than the Grandest Intention
                 </h1>
                 <div className='flex justify-center m-4'>
-                    <div className='p-2'>
+                    <div className='p-2'> 
+                        <Link to='/donate'>
                         <button className="btn text-white  px-4 font-bold rounded-full bg-green-500 border-0">Donate Now</button>
+                    </Link>
                     </div>
                     <div className='p-2'>
                         <button className="btn text-white px-4 font-bold rounded-full  bg-orange-600 border-0">Become A Voluteer</button>

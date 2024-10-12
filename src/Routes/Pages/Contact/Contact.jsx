@@ -10,7 +10,7 @@ export default function Contact() {
                 <Helmet>
                     <title>Hope Hues | Contact</title>
                 </Helmet>
-                <Cover img={ContactImg} titel='contact us' subTitel='how are you men'></Cover>
+                <Cover img={ContactImg} titel='contact us' subTitel=''></Cover>
             </div>
             <div className=''>
                 <div className='px-8 pt-8 m-8'>

@@ -12,7 +12,7 @@ function Donate() {
                 <Helmet>
                     <title>Hope Hues | event </title>
                 </Helmet>
-                <Cover img={img1} titel='Donate Now' subTitel='how are you men'></Cover>
+                <Cover img={img1} titel='Donate Now' subTitel=''></Cover>
             </div>
             <div className='grid grid-cols-1 mg:grid-cols-2 lg:grid-cols-2 gap-4 rounded-lg'>
 

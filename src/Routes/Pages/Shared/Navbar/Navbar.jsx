@@ -7,7 +7,6 @@ export default function Navbar() {
         <li><Link to='/'>HOME</Link></li>
         <li><Link to='/about'>ABOUT</Link></li>
         <li><Link to='/event'>EVENT</Link></li>
-        {/* <li><Link to="/gallery">GALLERY</Link></li> */}
         <li><Link to="/blog">BLOG</Link></li>
         <li><Link to="/contact">CONTACT</Link></li>
 
@@ -36,7 +35,7 @@ export default function Navbar() {
                 </div>
                 <div className="navbar-end">
                     <Link to='/donate'>
-                        <button className="btn btn-success btn-sm font-semibold"> DONATE NOW </button>
+                        <button className="btn text-white btn-success btn-sm font-semibold"> DONATE NOW </button>
                     </Link>
                 </div>
             </div>
