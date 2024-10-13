@@ -18,13 +18,13 @@ function Donate() {
 
                 <div className='py-8 m-8'>
                     <h2 className='text-sm font-bold text-green-500'>
-                        WELCOME TO LOVECARE NON-PROFIT CHARITY
+                        WELCOME TO HOPE HUES FAMILY
                     </h2>
                     <h1 className='text-4xl font-bold py-8'>
                         Do You Care Our People?
                     </h1>
                     <p className='text-sm font-semibold py-4 text-justify'>
-                        Your support is very important to fund our programs and keep us going. If you would like any further information about donating, please reach out to us directly.
+                        Your support is very important to fund our programs and keep us going. If you would like any further information about donating, please <b className='text-blue-700'><Link to='/contact'>reach out to us</Link></b> directly.
                         <br />
                         <br />
                         <b className='text-xl font-bold'>

@@ -13,8 +13,16 @@ function Blog() {
                 </Helmet>
                 <Cover img={ContactImg} titel='Our Blog' subTitel=''></Cover>
             </div>
-            <div>
+            <div className='flex justify-center m-10'>
+                <div className='m-10'>
+                    <p className='text-center'>
+                        <b>
+                            UPCOMMING......
+                        </b>
+                    </p>
 
+                    <progress className="progress w-56"></progress>
+                </div>
             </div>
         </>
     )

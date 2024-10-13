@@ -2,6 +2,9 @@ import React from 'react'
 import { Helmet } from 'react-helmet-async';
 import Cover from '../Shared/Cover/Cover';
 import ContactImg from '../../../assets/event pic/contact.jpg'
+import { AiOutlinePhone } from 'react-icons/ai';
+import { FaPhoneAlt } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 export default function Contact() {
     return (
@@ -43,8 +46,10 @@ export default function Contact() {
                             <h3 className='font-semibold'>
                                 PHONE:
                             </h3>
-                            <p>
-                                + 1235 2355 98
+                            <p className='flex'>
+                               <b className=''>
+                               + 1235 2355 98
+                               </b>
                             </p>
                         </div>
                     </div>
@@ -54,9 +59,15 @@ export default function Contact() {
                         Follow us here
                     </h2>
                     <div className="flex gap-2 p-2 ">
-                        <a className='text-green-500 font-semibold'>FACEBOOK</a>
-                        <a className='text-green-500 font-semibold'>INSTAGRAM</a>
-                        <a className='text-green-500 font-semibold'>TWITER</a>
+                        <Link to='https://www.facebook.com/hopehues.org' className='text-green-500 font-semibold'>
+                        FACEBOOK
+                        </Link>
+                        <Link to='https://www.facebook.com/hopehues.org' className='text-green-500 font-semibold'>
+                        INSTAGRAM
+                        </Link>
+                        <Link to='https://www.facebook.com/hopehues.org' className='text-green-500 font-semibold'>
+                        TWITER
+                        </Link>
                     </div>
                 </div>
             </div>
