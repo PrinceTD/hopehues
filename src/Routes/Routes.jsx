@@ -43,10 +43,10 @@ export const router = createBrowserRouter([
                 path: "blog",
                 element: <Blog />
             },
-            // {
-            //     path: "adminlogin",
-            //     element: <Login />
-            // },
+            {
+                path: "adminlogin",
+                element: <Login />
+            },
             {
                 path: "donate",
                 element: <Donate />

@@ -2,15 +2,10 @@ import React, { useRef, useState } from 'react';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { RiDoubleQuotesL } from "react-icons/ri";
-
-import icon from '../../../assets/q.png'
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-
-import { BsCheckAll } from "react-icons/bs";
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import Titel from '../../../Componets/SectionTitel/Titel';
 
 function Review() {
     return (

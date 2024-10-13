@@ -24,7 +24,7 @@ function Donate() {
                         Do You Care Our People?
                     </h1>
                     <p className='text-sm font-semibold py-4 text-justify'>
-                        Your support is very important to fund our programs and keep us going. If you would like any further information about donating, please <b className='text-blue-700'><Link to='/contact'>reach out to us</Link></b> directly.
+                        Your support is very important to fund our programs and keep us going. If you would like any further information about donating, please <b className='text-green-400'><Link to='/contact'>reach out to us</Link></b> directly.
                         <br />
                         <br />
                         <b className='text-xl font-bold'>

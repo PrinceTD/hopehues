@@ -97,11 +97,11 @@ export default function Dashboard() {
                 {/* dashboard contact */}
                 <div className='flex-1 m-4 ps-2'>
                     <div>
-                        <div className="navbar bg-base-100">
+                        <div className="navbar bg-base-200 rounded-full">
                             <div className="flex-1">
                                 <a className="btn btn-ghost text-xl">Hope Hues</a>
                             </div>
-                            <div className="flex-none">
+                            <div className="flex-none pe-4">
                                 <div className="dropdown dropdown-end">
                                     <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
                                         <div className="w-10 rounded-full">
