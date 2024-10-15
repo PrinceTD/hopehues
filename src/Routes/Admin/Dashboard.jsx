@@ -9,8 +9,8 @@ export default function Dashboard() {
     return (
         <div className=''>
             <Helmet>
-                    <title>Hope Hues | Deshboard </title>
-                </Helmet>
+                <title>Hope Hues | Deshboard </title>
+            </Helmet>
             <div className='flex m-8'>
                 {/* dashboard side bar */}
                 <div className="w-64 min-h-screen  border-r-4 border-indigo-500">
@@ -99,7 +99,9 @@ export default function Dashboard() {
                     <div>
                         <div className="navbar bg-base-200 rounded-full">
                             <div className="flex-1">
-                                <a className="btn btn-ghost text-xl">Hope Hues</a>
+                                <Link to='/'>
+                                    <a className="btn btn-ghost text-xl">Hope Hues</a>
+                                </Link>
                             </div>
                             <div className="flex-none pe-4">
                                 <div className="dropdown dropdown-end">
