@@ -2,12 +2,15 @@ import React, { useEffect, useRef, useState } from 'react'
 import { useContext } from 'react';
 import { loadCaptchaEnginge, LoadCanvasTemplate, LoadCanvasTemplateNoReload, validateCaptcha } from 'react-simple-captcha';
 import { AuthContext } from '../../../provider/AuthProvider';
+import { Link } from 'react-router-dom';
+import { FcGoogle } from "react-icons/fc";
+
 
 export default function Login() {
 
   const captchaRef = useRef(null);
 
-const{signIn} = useContext(AuthContext);
+  const { signIn } = useContext(AuthContext);
 
   useEffect(() => {
     loadCaptchaEnginge(6);
@@ -21,16 +24,21 @@ const{signIn} = useContext(AuthContext);
     const email = form.email.value;
     const password = form.password.value;
     console.log(email, password)
+    signIn(email, password)
+      .then(result => {
+        const user = result.user;
+        console.log(user);
+      })
   }
 
   const handleValidateCaptcha = () => {
     const user_captcha_value = captchaRef.current.value
     if (validateCaptcha(user_captcha_value)) {
-      
+
     }
 
     else {
-        alert('Captcha Does Not Match');
+      alert('Captcha Does Not Match');
     }
   }
 
@@ -38,7 +46,7 @@ const{signIn} = useContext(AuthContext);
     <div className="hero bg-base-100 min-h-screen">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div className="text-center lg:text-left">
-          <h1 className="text-5xl font-bold">Login now!</h1>
+          <h1 className="text-5xl font-bold">Login Now!</h1>
           <p className="py-6">
             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
             quasi. In deleniti eaque aut repudiandae et a id nisi.
@@ -67,7 +75,15 @@ const{signIn} = useContext(AuthContext);
             <div className="form-control mt-6">
               <input onClick={handleValidateCaptcha} className="btn btn-primary" type="submit" value='Login' />
             </div>
+            <p className='text-center'>
+              <small>
+                New Here? <Link to='/adminsignup'>Create an account</Link>
+              </small>
+              <div className="divider">or</div>
+            </p>
+
           </form>
+
         </div>
       </div>
     </div>

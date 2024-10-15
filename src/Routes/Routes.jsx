@@ -17,6 +17,7 @@ import UpcommintEvent from "./Admin/Dashboard/UpcommintEvent";
 import AddEvent from "./Admin/Dashboard/AddEvent";
 import AddBlog from "./Admin/Dashboard/AddBlog";
 import AddVolunteer from "./Admin/Dashboard/AddVolunteer";
+import SignUp from "./Pages/Login/SignUp/SignUp";
 
 export const router = createBrowserRouter([
     {
@@ -46,6 +47,10 @@ export const router = createBrowserRouter([
             {
                 path: "adminlogin",
                 element: <Login />
+            },
+            {
+                path: "adminsignup",
+                element: <SignUp />
             },
             {
                 path: "donate",
