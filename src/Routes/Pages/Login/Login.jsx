@@ -1,12 +1,19 @@
 import React, { useEffect, useRef, useState } from 'react'
+import { useContext } from 'react';
 import { loadCaptchaEnginge, LoadCanvasTemplate, LoadCanvasTemplateNoReload, validateCaptcha } from 'react-simple-captcha';
+import { AuthContext } from '../../../provider/AuthProvider';
 
 export default function Login() {
 
   const captchaRef = useRef(null);
+
+const{signIn} = useContext(AuthContext);
+
   useEffect(() => {
     loadCaptchaEnginge(6);
   })
+
+
 
   const handleLogin = event => {
     event.preventDefault();

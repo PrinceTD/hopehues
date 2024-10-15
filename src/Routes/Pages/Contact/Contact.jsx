@@ -48,7 +48,7 @@ export default function Contact() {
                             </h3>
                             <p className='flex'>
                                <b className=''>
-                               + 1235 2355 98
+                               + 880 175689
                                </b>
                             </p>
                         </div>
