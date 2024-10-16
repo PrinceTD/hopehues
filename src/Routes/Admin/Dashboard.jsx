@@ -1,11 +1,21 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { FaHome } from 'react-icons/fa'
 import { AiFillCalendar, AiFillEdit, AiFillHeart, AiFillPlusCircle, AiOutlinePhone } from "react-icons/ai";
 import { Link, Outlet } from 'react-router-dom'
 import logo from '../../assets/logo.png'
 import { Helmet } from 'react-helmet-async';
+import { AuthContext } from '../../provider/AuthProvider';
 
 export default function Dashboard() {
+
+    const { user, logOut } = useContext(AuthContext);
+
+    const handelLogOut = () => {
+        logOut()
+            .then(() => { })
+            .catch(error => console.log(error));
+    }
+
     return (
         <div className=''>
             <Helmet>
@@ -121,7 +131,12 @@ export default function Dashboard() {
                                                 <span className="badge">New</span>
                                             </a>
                                         </li>
-                                        <li><a>Logout</a></li>
+                                        {
+                                            user ?
+                                                <li><button onClick={handelLogOut} className="btn btn-sm">LogOut</button></li>
+                                                :
+                                                <></>
+                                        }
                                     </ul>
                                 </div>
                             </div>

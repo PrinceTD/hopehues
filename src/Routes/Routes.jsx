@@ -18,6 +18,7 @@ import AddEvent from "./Admin/Dashboard/AddEvent";
 import AddBlog from "./Admin/Dashboard/AddBlog";
 import AddVolunteer from "./Admin/Dashboard/AddVolunteer";
 import SignUp from "./Pages/Login/SignUp/SignUp";
+import PrivetRoute from "./PrivetRoute";
 
 export const router = createBrowserRouter([
     {
@@ -64,7 +65,7 @@ export const router = createBrowserRouter([
     },
     {
         path: 'dashboard',
-        element: <Dashboard></Dashboard>,
+        element: <PrivetRoute><Dashboard></Dashboard></PrivetRoute>,
         children: [
             {
                 path: 'cart',
