@@ -8,22 +8,10 @@ import { FcGoogle } from "react-icons/fc";
 import { app } from '../../../firebase/firebase.config';
 import { GoogleAuthProvider } from 'firebase/auth/web-extension';
 import { signInWithPopup } from 'firebase/auth';
+import SocialLogin from './SocialLogin/SocialLogin';
 
 
 export default function Login() {
-
-  // const provider = new GoogleAuthProvider();
-
-  // const handleGoogleSignIn = () => {
-  //   signInWithPopup(auth, provider)
-  //   .then(result =>{
-  //     const user = result.user;
-  //     console.log(user)
-  //   })
-  //   .catch(error=> {
-  //     console.log('error', error.message)
-  //   });
-  // }
 
   const navigate = useNavigate();
   const location = useLocation();
@@ -31,7 +19,6 @@ export default function Login() {
   const from = location.state?.from?.pathname || "/";
 
   const captchaRef = useRef(null);
-
   const { signIn } = useContext(AuthContext);
 
   useEffect(() => {
@@ -108,10 +95,10 @@ export default function Login() {
                 </small>
               </p>
             </form>
-            <div className="divider">or</div>
-            {/* <button className='grid justify-items-center pb-4'>
-              <FcGoogle onClick={handleGoogleSignIn} className='size-10' />
-            </button> */}
+           
+            <div>
+            <SocialLogin />
+            </div>
           </div>
         </div>
       </div>

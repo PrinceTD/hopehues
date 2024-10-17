@@ -7,7 +7,7 @@ import HomeEventShow from './HomeEventShow';
 function HomeEvent() {
     const [event, setEvent] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/event')
+        fetch('event.json')
             .then(res => res.json())
             .then(data => {
                 const home = data.filter(item => item.category === 'home');

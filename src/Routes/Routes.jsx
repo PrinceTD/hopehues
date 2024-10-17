@@ -19,6 +19,7 @@ import AddBlog from "./Admin/Dashboard/AddBlog";
 import AddVolunteer from "./Admin/Dashboard/AddVolunteer";
 import SignUp from "./Pages/Login/SignUp/SignUp";
 import PrivetRoute from "./PrivetRoute";
+import NotFound from "./Pages/NotFound/NotFound";
 
 export const router = createBrowserRouter([
     {
@@ -54,12 +55,12 @@ export const router = createBrowserRouter([
                 element: <SignUp />
             },
             {
-                path: "donate",
-                element: <Donate />
+                path: "*",
+                element: <NotFound />
             },
             {
-                path: "joinus",
-                element: <JoinUs />
+                path: "donate",
+                element: <Donate />
             },
         ]
     },
